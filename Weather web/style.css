@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+    
+}
+body{
+    background-image: linear-gradient(to right bottom, #070707, #141228, #181847, #1b1d67, #1e2189);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    position: absolute;
+    top:20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    
+}
+nav span{
+    font-size: 13px;
+}
+.main{
+    height: fit-content;
+    background-image: linear-gradient(to right top, #9491e2, #65b2f5, #54ccf1, #79e1e4, #aff2d8);
+    padding: 20px;
+    width: 360px;
+    border-radius: 20px;
+    
+  box-shadow: 0 4px 20px 0 rgba(117, 111, 111, 0.2), 0 6px 20px 0 rgba(102, 97, 97, 0.308);
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.search input{
+    padding: 20px;
+    width: 70%;
+    border-radius: 40px;
+    outline: none;
+    border: 1px solid rgb(58, 210, 221);
+    text-align: center;
+    box-shadow: 0 4px 20px 0 rgba(68, 66, 66, 0.2), 0 6px 20px 0 rgba(63, 62, 62, 0.308);
+    
+    
+}
+.search button{ 
+    padding: 5px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    outline: none;
+    border: 1px solid rgb(58, 210, 221);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.308);
+}
+.search button img{
+    width: 20px;
+    height: fit-content;
+    }
+.content{
+    display: flex;
+    flex-direction: column;
+    max-height: fit-content;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+#err{
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: red;
+    font-style: italic;
+    display: none;
+}
+.midle img{
+    height: 200px;
+    width: 200px;
+}
+.midle p{
+    color: rgb(7, 7, 7);
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.midle h1{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 45px;
+
+}
+.midle h3{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    padding-bottom: 10px;
+    }
+
+.last{
+  display:flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 30px;
+}
+.wind{
+    display: flex;
+}
+.wind img{
+    height: 50px;
+} 
+.humidity{
+    display: flex;
+}
+.humidity img{
+    height:40px;
+    padding: 5px 0px;
+}
+.wind p{
+    font-size: 13px;
+    padding: 9px;
+}
+.humidity p{
+    font-size: 13px;
+    padding: 10px;
+}
